@@ -64,3 +64,41 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# Installation
+
+How to install framework laravel using composer
+
+## Clone repository
+
+run the code on cmd / terminal 
+```
+git clone https://github.com/agengpangestu/sistem_gudang_idgrow.git
+```
+
+## Install framework
+
+run to your terminal visual studio code / cmd 
+```
+composer create-project laravel/laravel example-app
+cd example-app
+```
+
+## How to run
+
+running laravel
+```
+php artisan serve
+```
+
+## Create model and controller
+
+php artisan make:controller nameController
+php artisan make:model nameModel
+
+## Migrate database
+
+php artisan migrate
+
+# Postman Documentation API
+
